@@ -13,11 +13,11 @@ function Navigation() {
 
 		<nav className=" container-fluid p-3 shadow fixed-top navbar navbar-light bg-white " style={{ position: "sticky" }}>
 			<div className="container p-0">
-				<Link to="/books" className="navbar-brand">
+				<Link to="/dashboard" className="navbar-brand">
 					LIBRARY MANAGEMENT
 				</Link>
 				<div className="d-flex justify-content-center align-items-center text-center" id="navbarSupportedContent">
-					<Link className="nav-link me-4" to="/dashboard">
+					<Link className="nav-link me-4" to="/books">
 						DASHBOARD
 					</Link>
 					<Link className="nav-link" to="/library">
